@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>W1 - Todolist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-ele">
+            <a class="selected" href="#">My Tasks</a>
+            <a href="#">In Progress</a>
+            <a href="#">Completed</a>
+        </div>
+    </div>
+    <div class="wrapper ">
+        <div class="append">
+            <div class="add-task">
+                <img src="https://fakeimg.pl/24/">
+                <input class="new-task-box" placeholder="Type Something Here..." type="text">
+                <a href="#">
+                    <i class="fas fa-pencil-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="far fa-star"></i>
+                </a>
+            </div>
+
+            <div class="options">
+                <div class="options-contents">
+                    <i class="far fa-calendar-alt"></i>
+                    <span>Deadline</span>
+                    <div class="date-input">
+                        <input type="date">
+                        <input type="datetime" placeholder="hh:mm">
+                    </div>
+                </div>
+                <div class="options-contents">
+                    <i class="far fa-file"></i>
+                    <span>File</span>
+                    <label class="upload-btn">
+                        <input type="file">
+                        <i class="far fa-plus-square"></i>
+                    </label>
+
+                </div>
+                <div class="options-contents">
+                    <i class="far fa-comment"></i>
+                    <span>Comment</span>
+                    <textarea class="meme" cols="30" rows="5" placeholder="Type your memo here…"></textarea>
+
+                </div>
+            </div>
+            <div class="send">
+                <a href="" class="cancel">
+                    <i class="fas fa-times"></i>Cancel</a>
+                <a href="" class="add">
+                    <i class="fas fa-plus"></i>Add Tasks</a>
+            </div>
+        </div>
+        <div class="list">
+            <div class="list-item star">
+                <div class="item-row">
+                    <input type="checkbox" name="" id="">
+                    <h3>F2E Week1</h3>
+                    <i class="fas fa-pen-square"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                </div>
+                <div class="clear"></div>
+                <div class="item-info">
+                    <i class="far fa-calendar-alt"></i><span>5 / 14</span>
+                    <i class="far fa-file-alt"></i>
+                    <i class="far fa-comment"></i>                    
+                </div>
+
+            </div>
+            <div class="list-item star">
+                <div class="item-row">
+                    <input type="checkbox" name="" id="">
+                    <h3>F2E Week2</h3>
+                    <i class="fas fa-pen-square"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                </div>
+                <div class="clear"></div>
+                <div class="item-info">
+                    <i class="far fa-file-alt"></i>
+                    <i class="far fa-comment"></i>                    
+                </div>
+            </div>
+            <div class="list-item">
+                <div class="item-row">
+                    <input type="checkbox" name="" id="">
+                    <h3>F2E Week3</h3>
+                    <i class="fas fa-pen-square"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="clear"></div>
+                <div class="item-info">
+                    <i class="far fa-calendar-alt"></i><span>2019 / 6 / 18</span>                   
+                </div>
+            </div>
+            <div class="list-item">
+                <div class="item-row">
+                    <input type="checkbox" name="" id="">
+                    <h3>F2E Week4</h3>
+                    <i class="fas fa-pen-square"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="clear"></div>
+                <div class="item-info">
+                    <i class="far fa-file-alt"></i>                  
+                </div>
+            </div>
+             <div class="list-item del">
+                <div class="item-row">
+                    <input type="checkbox" name="" id="" checked=true>
+                    <h3>F2E Week4</h3>
+                    <i class="fas fa-pen-square"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <h3>4 tasks left</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>
